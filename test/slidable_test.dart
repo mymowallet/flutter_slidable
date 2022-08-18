@@ -1,4 +1,3 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/src/action_pane_motions.dart';
 import 'package:flutter_slidable/src/actions.dart';
@@ -21,16 +20,16 @@ void main() {
               key: startActionPaneKey,
               motion: const BehindMotion(),
               children: [
-                SlidableAction(onPressed: (_) {}, icon: Icons.share),
-                SlidableAction(onPressed: (_) {}, icon: Icons.delete),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.share)),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.delete)),
               ],
             ),
             endActionPane: ActionPane(
               key: endActionPaneKey,
               motion: const ScrollMotion(),
               children: [
-                SlidableAction(onPressed: (_) {}, icon: Icons.share),
-                SlidableAction(onPressed: (_) {}, icon: Icons.delete),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.share)),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.delete)),
               ],
             ),
             child: Builder(builder: (context) {
@@ -68,16 +67,16 @@ void main() {
               key: startActionPaneKey,
               motion: const BehindMotion(),
               children: [
-                SlidableAction(onPressed: (_) {}, icon: Icons.share),
-                SlidableAction(onPressed: (_) {}, icon: Icons.delete),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.share)),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.delete)),
               ],
             ),
             endActionPane: ActionPane(
               key: endActionPaneKey,
               motion: const ScrollMotion(),
               children: [
-                SlidableAction(onPressed: (_) {}, icon: Icons.share),
-                SlidableAction(onPressed: (_) {}, icon: Icons.delete),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.share)),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.delete)),
               ],
             ),
             child: Builder(builder: (context) {
@@ -116,16 +115,16 @@ void main() {
               key: startActionPaneKey,
               motion: const BehindMotion(),
               children: [
-                SlidableAction(onPressed: (_) {}, icon: Icons.share),
-                SlidableAction(onPressed: (_) {}, icon: Icons.delete),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.share)),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.delete)),
               ],
             ),
             endActionPane: ActionPane(
               key: endActionPaneKey,
               motion: const ScrollMotion(),
               children: [
-                SlidableAction(onPressed: (_) {}, icon: Icons.share),
-                SlidableAction(onPressed: (_) {}, icon: Icons.delete),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.share)),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.delete)),
               ],
             ),
             child: Builder(builder: (context) {
@@ -164,16 +163,16 @@ void main() {
               key: startActionPaneKey,
               motion: const BehindMotion(),
               children: [
-                SlidableAction(onPressed: (_) {}, icon: Icons.share),
-                SlidableAction(onPressed: (_) {}, icon: Icons.delete),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.share)),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.delete)),
               ],
             ),
             endActionPane: ActionPane(
               key: endActionPaneKey,
               motion: const ScrollMotion(),
               children: [
-                SlidableAction(onPressed: (_) {}, icon: Icons.share),
-                SlidableAction(onPressed: (_) {}, icon: Icons.delete),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.share)),
+                SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.delete)),
               ],
             ),
             child: Builder(builder: (context) {
@@ -213,8 +212,8 @@ void main() {
             key: endActionPaneKey,
             motion: const ScrollMotion(),
             children: [
-              SlidableAction(onPressed: (_) {}, icon: Icons.share),
-              SlidableAction(onPressed: (_) {}, icon: Icons.delete),
+              SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.share)),
+              SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.delete)),
             ],
           ),
           child: Builder(
@@ -253,8 +252,8 @@ void main() {
             key: startActionPaneKey,
             motion: const ScrollMotion(),
             children: [
-              SlidableAction(onPressed: (_) {}, icon: Icons.share),
-              SlidableAction(onPressed: (_) {}, icon: Icons.delete),
+              SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.share)),
+              SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.delete)),
             ],
           ),
           child: Builder(
@@ -288,8 +287,8 @@ void main() {
       key: actionPaneKey,
       motion: const BehindMotion(),
       children: [
-        SlidableAction(onPressed: (_) {}, icon: Icons.share),
-        SlidableAction(onPressed: (_) {}, icon: Icons.delete),
+        SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.share)),
+        SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.delete)),
       ],
     );
 
@@ -326,8 +325,8 @@ void main() {
       key: actionPaneKey,
       motion: const BehindMotion(),
       children: [
-        SlidableAction(onPressed: (_) {}, icon: Icons.share),
-        SlidableAction(onPressed: (_) {}, icon: Icons.delete),
+        SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.share)),
+        SlidableAction(onPressed: (_) {}, icon: const Icon(Icons.delete)),
       ],
     );
 
